@@ -10,7 +10,7 @@ me.connect()
 print(me.get_battery())
 global img
 me.streamon()
-xml_haar_cascade = 'haarcascade_frontalface_alt2.xml'
+xml_haar_cascade = 'haarcascades/haarcascade_frontalface_alt2.xml'
 faceClassifier = cv2.CascadeClassifier(xml_haar_cascade)
 
 def getKeyboardInput():
