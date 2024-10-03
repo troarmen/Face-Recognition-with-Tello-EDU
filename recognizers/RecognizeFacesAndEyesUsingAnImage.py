@@ -1,10 +1,10 @@
 import cv2
 
-face = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt2.xml')
-olho = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
+face = cv2.CascadeClassifier('../haarcascades/haarcascade_frontalface_alt2.xml')
+olho = cv2.CascadeClassifier('../haarcascades/haarcascade_eye.xml')
 
 
-imagem = cv2.imread('images/imagem2.png')
+imagem = cv2.imread('../images/imagem2.png')
 imagemcinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 faces = face.detectMultiScale(imagemcinza)
 
