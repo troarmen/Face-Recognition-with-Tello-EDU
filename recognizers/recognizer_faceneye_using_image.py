@@ -1,7 +1,7 @@
 import cv2
 
-face = cv2.CascadeClassifier(r'../haarcascade_frontalface_alt2.xml')
-olho = cv2.CascadeClassifier(r'../haarcascade_eye.xml')
+face = cv2.CascadeClassifier(r'../haarcascades/haarcascade_frontalface_alt2.xml')
+olho = cv2.CascadeClassifier(r'../haarcascades/haarcascade_eye.xml')
 
 
 imagem = cv2.imread('../images/imagem3.png')

@@ -9,7 +9,7 @@ me.connect()
 print(me.get_battery())
 global img
 me.streamon()
-xml_haar_cascade = r'haarcascade_frontalface_alt2.xml'
+xml_haar_cascade = r'../haarcascadeshaarcascade_frontalface_alt2.xml'
 faceClassifier = cv2.CascadeClassifier(xml_haar_cascade)
 
 

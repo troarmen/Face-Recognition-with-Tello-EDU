@@ -1,7 +1,7 @@
 import cv2
 
 
-xml_haar_cascade = r"../haarcascade_frontalface_alt2.xml"
+xml_haar_cascade = r"../haarcascades/haarcascade_frontalface_alt2.xml"
 
 # Carregar Classificador
 faceClassifier = cv2.CascadeClassifier(xml_haar_cascade)
